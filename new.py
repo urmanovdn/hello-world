@@ -5,3 +5,7 @@ def is_prime(n):
     return True
 
 
+def is_odd(n):
+    if n % 2 == 0:
+        return False
+    return True
