@@ -9,3 +9,7 @@ def is_odd(n):
     if n % 2 == 0:
         return False
     return True
+
+
+def is_even(n):
+    return not is_odd(n)
